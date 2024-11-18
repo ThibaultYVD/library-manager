@@ -1,0 +1,92 @@
+/* Corps de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0;
+    /* Couleur d'arrière-plan neutre */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/* En-tête principal */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Conteneur principal */
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #e0e0e0;
+    box-shadow:
+        8px 8px 15px #bebebe,
+        -8px -8px 15px #ffffff;
+}
+
+/* Boutons en néomorphisme */
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 12px;
+    background: #e0e0e0;
+    color: #333;
+    cursor: pointer;
+    box-shadow:
+        4px 4px 8px #bebebe,
+        -4px -4px 8px #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    box-shadow:
+        2px 2px 4px #bebebe,
+        -2px -2px 4px #ffffff;
+}
+
+button:active {
+    box-shadow:
+        inset 2px 2px 4px #bebebe,
+        inset -2px -2px 4px #ffffff;
+}
+
+/* Liens dans le menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 12px;
+    background: #e0e0e0;
+    box-shadow:
+        4px 4px 8px #bebebe,
+        -4px -4px 8px #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    box-shadow:
+        2px 2px 4px #bebebe,
+        -2px -2px 4px #ffffff;
+}
